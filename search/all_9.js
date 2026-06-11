@@ -4,6 +4,7 @@ var searchData=
   ['mfclient_1',['MFClient',['../class_m_f_client.html',1,'']]],
   ['mfserver_2',['MFServer',['../class_m_f_server.html',1,'']]],
   ['mfthinkgear_3',['MFThinkGear',['../class_m_f_think_gear.html',1,'']]],
-  ['movetoimage_4',['MoveToImage',['../class_move_to_image.html',1,'']]],
-  ['movetotouch_5',['MoveToTouch',['../class_move_to_touch.html',1,'']]]
+  ['mindfull_4',['Getting started with MindFull',['../md_docs_2getting-started.html',1,'']]],
+  ['movetoimage_5',['MoveToImage',['../class_move_to_image.html',1,'']]],
+  ['movetotouch_6',['MoveToTouch',['../class_move_to_touch.html',1,'']]]
 ];

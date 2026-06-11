@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mindfull_0',['TECI-Mindfull',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['getting_20started_20with_20mindfull_0',['Getting started with MindFull',['../md_docs_2getting-started.html',1,'']]]
 ];
