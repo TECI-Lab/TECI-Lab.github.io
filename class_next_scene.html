@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Main Page</title>
+<title>My Project: NextScene Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </div>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded',() => { initNavTree('index.html','',''); });
+document.addEventListener('DOMContentLoaded',() => { initNavTree('class_next_scene.html','','class_next_scene-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -115,16 +115,95 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('index.html',''
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">My Project Documentation</div></div>
+  <div class="headertitle"><div class="title">NextScene Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="doxygen_crawl.html"></a>
+<div class="dynheader">
+Inheritance diagram for NextScene:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_next_scene.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:aacbb38d8df3c0ecb470b52b2b5fb3d62" id="r_aacbb38d8df3c0ecb470b52b2b5fb3d62"><td class="memItemLeft"><a id="aacbb38d8df3c0ecb470b52b2b5fb3d62" name="aacbb38d8df3c0ecb470b52b2b5fb3d62"></a>enum &#160;</td><td class="memItemRight"><b>SceneNames</b> { <br />
+&#160;&#160;<b>splash</b>
+, <b>user_login</b>
+, <b>user_management</b>
+, <b>new_user</b>
+, <br />
+&#160;&#160;<b>progress</b>
+, <b>history</b>
+, <b>game1</b>
+, <b>game2</b>
+, <br />
+&#160;&#160;<b>game3</b>
+, <b>extension</b> = 12
+, <b>howtoplay</b> = 13
+, <b>options</b> = 14
+<br />
+ }</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a2c094d9575bda861db4987a2bb821aa1" id="r_a2c094d9575bda861db4987a2bb821aa1"><td class="memItemLeft"><a id="a2c094d9575bda861db4987a2bb821aa1" name="a2c094d9575bda861db4987a2bb821aa1"></a>
+void&#160;</td><td class="memItemRight"><b>LoadNextScene</b> ()</td></tr>
+<tr class="memitem:a4bf9ca1b38c39fda458f9715b07f4d01" id="r_a4bf9ca1b38c39fda458f9715b07f4d01"><td class="memItemLeft"><a id="a4bf9ca1b38c39fda458f9715b07f4d01" name="a4bf9ca1b38c39fda458f9715b07f4d01"></a>
+void&#160;</td><td class="memItemRight"><b>AdditiveLoadScene</b> ()</td></tr>
+<tr class="memitem:a759a16320c50d2e7dafcb4cf09c740f0" id="r_a759a16320c50d2e7dafcb4cf09c740f0"><td class="memItemLeft"><a id="a759a16320c50d2e7dafcb4cf09c740f0" name="a759a16320c50d2e7dafcb4cf09c740f0"></a>
+void&#160;</td><td class="memItemRight"><b>UnloadScene</b> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a5b2150e371d328fedd9482531b8de246" id="r_a5b2150e371d328fedd9482531b8de246"><td class="memItemLeft">static readonly Dictionary&lt; SceneNames, GameName &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a5b2150e371d328fedd9482531b8de246">SceneNames_to_GameType</a></td></tr>
+</table>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a5b2150e371d328fedd9482531b8de246" name="a5b2150e371d328fedd9482531b8de246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b2150e371d328fedd9482531b8de246">&#9670;&#160;</a></span>SceneNames_to_GameType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Dictionary&lt;SceneNames, GameName&gt; NextScene.SceneNames_to_GameType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                                                         = <span class="keyword">new</span> Dictionary&lt;SceneNames, GameName&gt;</div>
+<div class="line">{</div>
+<div class="line">    { SceneNames.game1, GameName.game1 },</div>
+<div class="line">    { SceneNames.game2, GameName.game2 },</div>
+<div class="line">    { SceneNames.game3, GameName.game3 }</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Assets/Scripts/<b>NextScene.cs</b></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a href="class_next_scene.html">NextScene</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0 </li>
   </ul>
 </div>
