@@ -26,6 +26,7 @@ var NAVTREE =
 [
   [ "TECI Mindfull", "index.html", [
     [ "Getting started with MindFull", "md_docs_2getting-started.html", null ],
+    [ "Overview of the project", "md_docs_2overview.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
