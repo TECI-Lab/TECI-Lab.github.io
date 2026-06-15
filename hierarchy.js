@@ -66,6 +66,7 @@ var hierarchy =
       [ "ThinkGearDisplay", "class_think_gear_display.html", null ],
       [ "ThinkGearSignal", "class_think_gear_signal.html", null ],
       [ "ToolsController", "class_tools_controller.html", null ],
+      [ "UI_Manager", "class_u_i___manager.html", null ],
       [ "UserImage", "class_user_image.html", null ],
       [ "UserLoginGridController", "class_user_login_grid_controller.html", null ],
       [ "WindGirlPosition", "class_wind_girl_position.html", null ]
